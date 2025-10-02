@@ -2,11 +2,13 @@
 
 ## Introduction
 
-Entity Framework Core (EF Core) is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.
+Entity Framework Core (EF Core) is a modern object-database mapper for .NET. It supports LINQ queries, change tracking,
+updates, and schema migrations.
 
 ## Database Providers
 
 EF Core supports multiple database providers:
+
 - SQL Server
 - PostgreSQL
 - MySQL

@@ -9,6 +9,7 @@ C# continues to evolve with each version, introducing features that improve deve
 Pattern matching allows you to test if a value has a certain "shape" and extract information from it.
 
 ### Type Patterns
+
 ```csharp
 if (obj is string s)
 {
@@ -17,6 +18,7 @@ if (obj is string s)
 ```
 
 ### Property Patterns
+
 ```csharp
 if (person is { Age: > 18, Name: var name })
 {

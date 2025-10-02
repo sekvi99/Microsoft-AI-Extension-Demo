@@ -15,6 +15,7 @@ Follow SOLID principles for maintainable code:
 ### Clean Architecture
 
 Organize your application into layers:
+
 1. **Domain Layer**: Core business logic and entities
 2. **Application Layer**: Use cases and business rules
 3. **Infrastructure Layer**: External concerns (database, file system, APIs)
@@ -81,6 +82,7 @@ catch (InvalidOperationException ex)
 ## Testing
 
 ### Unit Testing
+
 Test individual components in isolation:
 
 ```csharp
@@ -103,6 +105,7 @@ public async Task GetUserAsync_WithValidId_ReturnsUser()
 ```
 
 ### Integration Testing
+
 Test components working together with TestServer.
 
 ## Configuration

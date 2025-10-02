@@ -2,14 +2,18 @@
 
 ## Overview
 
-ASP.NET Core is a cross-platform, high-performance framework for building modern, cloud-enabled, internet-connected applications.
+ASP.NET Core is a cross-platform, high-performance framework for building modern, cloud-enabled, internet-connected
+applications.
 
 ## Key Features
 
 ### Unified Framework
-ASP.NET Core provides a unified story for building web UI and web APIs. You can use the same patterns, primitives, and infrastructure for both.
+
+ASP.NET Core provides a unified story for building web UI and web APIs. You can use the same patterns, primitives, and
+infrastructure for both.
 
 ### Dependency Injection
+
 Built-in dependency injection promotes loose coupling and testability:
 
 ```csharp
@@ -25,6 +29,7 @@ public class HomeController : Controller
 ```
 
 ### Middleware Pipeline
+
 The middleware pipeline processes HTTP requests and responses:
 
 ```csharp
@@ -80,6 +85,7 @@ public class IndexModel : PageModel
 ## Performance
 
 ASP.NET Core is optimized for performance:
+
 - Fast startup time
 - Low memory footprint
 - High request throughput
@@ -88,6 +94,7 @@ ASP.NET Core is optimized for performance:
 ## Hosting
 
 ASP.NET Core applications can be hosted in various environments:
+
 - Kestrel (cross-platform web server)
 - IIS
 - Nginx
