@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIKnowledgeBaseChat.Infrastructure", "AIKnowledgeBaseChat.Infrastructure\AIKnowledgeBaseChat.Infrastructure.csproj", "{ADDB4EC8-7AA9-4C77-8390-0AAB7194B8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIKnowledgeBaseChat.Domain", "AIKnowledgeBaseChat.Domain\AIKnowledgeBaseChat.Domain.csproj", "{51F5F15B-15A2-4F47-A701-0E9682881B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIKnowledgeBaseChat.Application", "AIKnowledgeBaseChat.Application\AIKnowledgeBaseChat.Application.csproj", "{0BE747D7-2D2A-40DA-B62C-05538A55E7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIKnowledgeBaseChat.Presentation", "AIKnowledgeBaseChat.Presentation\AIKnowledgeBaseChat.Presentation.csproj", "{D3E3B377-D222-449C-84F4-30A66E1D42A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDB4EC8-7AA9-4C77-8390-0AAB7194B8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDB4EC8-7AA9-4C77-8390-0AAB7194B8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDB4EC8-7AA9-4C77-8390-0AAB7194B8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDB4EC8-7AA9-4C77-8390-0AAB7194B8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F5F15B-15A2-4F47-A701-0E9682881B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F5F15B-15A2-4F47-A701-0E9682881B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F5F15B-15A2-4F47-A701-0E9682881B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F5F15B-15A2-4F47-A701-0E9682881B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE747D7-2D2A-40DA-B62C-05538A55E7EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE747D7-2D2A-40DA-B62C-05538A55E7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE747D7-2D2A-40DA-B62C-05538A55E7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE747D7-2D2A-40DA-B62C-05538A55E7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3E3B377-D222-449C-84F4-30A66E1D42A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E3B377-D222-449C-84F4-30A66E1D42A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E3B377-D222-449C-84F4-30A66E1D42A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E3B377-D222-449C-84F4-30A66E1D42A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
