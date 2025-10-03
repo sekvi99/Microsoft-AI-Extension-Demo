@@ -1,7 +1,7 @@
 using Microsoft.Extensions.AI;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
-using OpenAI;
+using OpenAI.Chat;
 
 namespace AIKnowledgeBaseChat.Infrastructure.AI;
 
@@ -31,13 +31,12 @@ public static class OpenAIChatClientFactory
             throw new ArgumentException("Model ID cannot be empty.", nameof(modelId));
 
         // Create the base OpenAI client
-        var openAIClient = new OpenAIClient(apiKey);
-
-        // Get chat client for the specified model
-        var chatClient = openAIClient.GetChatClient(modelId);
+        var openaiClient =
+            new ChatClient(modelId, apiKey)
+                .AsIChatClient();
 
         // Build pipeline with middleware
-        return new ChatClientBuilder((IChatClient)chatClient)
+        return new ChatClientBuilder(openaiClient)
             .UseDistributedCache(cache)
             .UseLogging(loggerFactory)
             .ConfigureOptions(options =>

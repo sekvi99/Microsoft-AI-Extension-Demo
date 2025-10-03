@@ -137,7 +137,7 @@ static void DisplayWelcomeScreen()
     Console.Clear();
     Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine("╔════════════════════════════════════════════════════════════╗");
-    Console.WriteLine("║        .NET Knowledge Base AI Chat Assistant              ║");
+    Console.WriteLine("║        .NET Knowledge Base AI Chat Assistant               ║");
     Console.WriteLine("║              Powered by Microsoft.Extensions.AI            ║");
     Console.WriteLine("╚════════════════════════════════════════════════════════════╝");
     Console.ResetColor();
